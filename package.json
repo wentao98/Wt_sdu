@@ -1,6 +1,22 @@
 {
-  "name": "tray-app-election",
+  "name": "lorikeet",
   "version": "1.0.0",
-  "main": "main.js"
-  }
-
+  "main": "main.js",
+  "author": "wentao",
+  "description": "A file explorer application",
+  "dependencies": {
+    "async": "^2.6.1",
+    "lunr": "^2.3.0",
+    "npm": "^6.2.0",
+    "osenv": "^0.1.5"
+  },
+  "scripts": {
+    "pack": "build",
+    "dist": "build"
+  },
+  "devDependencies": {
+    "electron": "^2.0.5",
+    "electron-builder": "^20.20.4"
+  },
+  "build": {}
+}
